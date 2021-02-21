@@ -1,3 +1,3 @@
 export default function AccountPage() {
-  return <p>Hello!</p>;
+  return <p>Hello this is the Accounts Page!</p>;
 }

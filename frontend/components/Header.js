@@ -8,9 +8,12 @@ margin-left: 2rem;
 position: relative;
 z-index: 2;
 background: red;
-transform: skew()(-7deg);
+transform: skew(-7deg);
 a {
     color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
 }
 `;
 
@@ -36,7 +39,7 @@ export default function Header() {
     <HeaderStyles>
       <div className="bar">
         <Logo>
-          <Link href="/"><h1>Website</h1></Link>
+          <Link href="/">Website</Link>
         </Logo>
       </div>
       <div className="sub-bar">
